@@ -13,13 +13,6 @@ train_data.csv: DataFrame que contiene información relevante sobre las imágene
 models/: Carpeta donde se guarda el modelo entrenado.
 
 trained_model.h5: Archivo que contiene tanto los pesos como la arquitectura del modelo.
-Configuración del Entorno
-Se recomienda configurar un entorno virtual para ejecutar los scripts. Puedes instalar las dependencias necesarias ejecutando el siguiente comando:
-
-bash
-Copy code
-pip install -r requirements.txt
-Asegúrate de contar con TensorFlow, NumPy y otras dependencias esenciales.
 
 Entrenamiento del Modelo
 Para entrenar el modelo, ejecuta el script train_model.py. Puedes ajustar los parámetros del modelo, como el número de épocas y el tamaño del lote, según tus necesidades.
